@@ -7,9 +7,16 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-    recipes: Recipe[] = [
-      new Recipe('This is a name', 'Just a name', 'http://www.coca-colacompany.com/stories/recipes-coca-cola-chicken-wings')
+  holder = ' dsacasdfxefvcxsfxfsfxex';
+  recipes: Recipe[] = [
+      new Recipe('This is a name',
+       'Just a name',
+       'http://www.seriouseats.com/images/2015/09/20150914-pressure-cooker-recipes-roundup-09.jpg'),
+       new Recipe('This is a name',
+       'Just a name',
+       'http://www.seriouseats.com/images/2015/09/20150914-pressure-cooker-recipes-roundup-09.jpg')
     ];
+  hold = ['asdsa', 'aaaa', 'aaaaaaaaa123'];
   constructor() { }
   ngOnInit() {
   }
